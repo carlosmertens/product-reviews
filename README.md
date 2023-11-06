@@ -20,6 +20,8 @@ The steps taken to initialize the project
 
 5. Create [.gitignore](/.gitignore) file and add "node_modules/" to be ignore on the commits.
 
-6. Do first "commit"
+6. Commit initial installations and files.
 
-7. Create [GitHub repository]()
+7. Create [GitHub repository](https://github.com/carlosmertens/product-reviews) and link it ot the source code.
+
+8. Happy coding...
