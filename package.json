@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "DCI's final project for JS module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
