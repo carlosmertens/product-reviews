@@ -1,5 +1,4 @@
 'use strict';
-
 import { header } from './header.js';
 import { createUser } from './createUser.js';
 import { Product } from './Product.js';

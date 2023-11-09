@@ -25,3 +25,12 @@ The steps taken to initialize the project
 7. Create [GitHub repository](https://github.com/carlosmertens/product-reviews) and link it ot the source code.
 
 8. Happy coding...
+
+## Techniques applied
+
+- Constructor functions
+- Factory functions
+- ES6 Classes
+- Recursice functions and methods
+- Prototypes methods
+- External library
