@@ -1,20 +1,27 @@
+'use strict';
+import readlineSync from 'readline-sync';
 /*
-//////////////////// USER CLASS ////////////////////
+//////////////////// USER CONSTRUCTOR FUNCTION ////////////////////
 */
 
-// Simple class to create users with login method
+// Constructor function to create users with a prototype login method
 
-export class User {
-  constructor(userName, password) {
-    this.userName = userName;
-    this.password = password;
-    this.logged = false;
-  }
-
-  login(userName, password) {
-    // userName = userName[0].toUpperCase() + userName.slice(1).toLowerCase();
-    if (this.userName === userName && this.password === password) {
-      this.logged = true;
-    }
-  }
+export function User(userName, password) {
+  this.userName = userName;
+  this.password = password;
+  this.logged = false;
+  this.reviews = [];
 }
+
+User.prototype.login = function () {
+  let userName = readlineSync.question('-> Your name: ');
+  userName = userName[0].toUpperCase() + userName.slice(1).toLowerCase();
+  const password = readlineSync.question('-> Your password: ');
+
+  if (this.userName === userName && this.password === password) {
+    console.log(`Welcome to your review page, ${userName}!\n`);
+    this.logged = true;
+  } else {
+    console.log('Please try again!\n');
+  }
+};
