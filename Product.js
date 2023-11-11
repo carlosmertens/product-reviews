@@ -8,7 +8,7 @@ import readlineSync from 'readline-sync';
 // Class to create products
 
 export class Product {
-  constructor(name = 'unknown', color = 'unknown', price = 9999, id) {
+  constructor(name = 'unknown', color = 'unknown', price = 9999, id = null) {
     this.name = name;
     this.color = color;
     this.price = price;
@@ -19,7 +19,7 @@ export class Product {
   createReview(user) {
     if (user.logged) {
       const reviewID = this.reviews.length + 1;
-      this.reviews.push(createReview(user.userName, reviewID));
+      this.reviews.push(reviewObj(user.userName, reviewID));
       console.log('>>> Review created!\n');
       return { productId: this.id, reviewID };
     } else {
@@ -47,7 +47,7 @@ export class Product {
 //////////////////// CREATE REVIEW FACTORY FUNCTION ////////////////////
 */
 
-function createReview(userName, id) {
+function reviewObj(userName, id) {
   return {
     author: userName,
     reviewID: id,

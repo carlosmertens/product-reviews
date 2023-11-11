@@ -1,8 +1,8 @@
 'use strict';
-import readlineSync from 'readline-sync';
 import { header } from './header.js';
 import { createUser } from './createUser.js';
 import { Product } from './Product.js';
+import { showNext } from './showNext.js';
 
 console.clear();
 
@@ -38,7 +38,7 @@ console.log(users);
 showNext();
 
 // ***** Create a couple of products ***** //
-console.log('\n// Create a couple of product instances //');
+console.log('\n// Create a couple of Product instances //');
 
 const product1 = new Product(
   'Dolly Doll',
@@ -95,10 +95,3 @@ console.log('Product1 reviews:', product1.reviews);
 console.log('Product2 reviews:', product2.reviews);
 console.log('User1 reviews:', user1.reviews);
 console.log('User2 reviews:', user2.reviews);
-
-// ***** Function to show next step ***** //
-function showNext() {
-  readlineSync.question('\nPress "enter" to continue ⏎ ');
-  console.clear();
-  header();
-}
