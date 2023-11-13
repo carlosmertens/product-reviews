@@ -25,3 +25,10 @@ User.prototype.login = function () {
     console.log('Please try again!\n');
   }
 };
+
+export class Employee extends User {
+  constructor(userName, password, position) {
+    super(userName, password);
+    this.position = position;
+  }
+}

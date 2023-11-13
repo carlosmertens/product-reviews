@@ -1,6 +1,7 @@
 'use strict';
 import { header } from './header.js';
 import { createUser } from './createUser.js';
+import { Employee } from './User.js';
 import { Product } from './Product.js';
 import { showNext } from './showNext.js';
 
@@ -24,6 +25,9 @@ users.push(user1);
 
 const user2 = createUser(users);
 users.push(user2);
+
+const employee1 = new Employee('Muhasin', '007', 'Teacher');
+users.push(employee1);
 
 console.log(users);
 
