@@ -31,4 +31,8 @@ export class Employee extends User {
     super(userName, password);
     this.position = position;
   }
+
+  login() {
+    console.log('Sorry but Carlos did not make me part of the tests!');
+  }
 }

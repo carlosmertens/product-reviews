@@ -2,6 +2,28 @@
 
 Product Reviews is a repo created to showcase the power of Object-oriented programming.
 
+## Principles demostrated
+
+1. Abstraction
+
+- Reduce complexity + isolate impact of changes
+- Ignore/hide details or implementations that don't matter to interact
+
+2. Encapsulation
+
+- Reduce complexity + increase reusability
+- Keeping some implementation private and others public
+
+3. Inheritance
+
+- Eliminate redundant code
+- Allow to reuse common logic, methods or properties
+
+4. Polymorphism
+
+- Refactor code that is inherited.
+- Instances can improve the logic inherited from a class
+
 ## Initializing it
 
 The steps taken to initialize the project
