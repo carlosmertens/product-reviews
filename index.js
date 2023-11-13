@@ -101,6 +101,7 @@ console.log('User1 reviews:', user1.reviews);
 console.log('User2 reviews:', user2.reviews);
 
 showNext();
+
 // ***** Display user1 details and reviews ***** //
 console.log('\n// Simple example of Polymorphism //');
 employee1.login();

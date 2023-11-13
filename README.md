@@ -12,7 +12,7 @@ Product Reviews is a repo created to showcase the power of Object-oriented progr
 2. Encapsulation
 
 - Reduce complexity + increase reusability
-- Keeping some implementation private and others public
+- Keeping some implementation separated and isolated
 
 3. Inheritance
 
