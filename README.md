@@ -24,6 +24,15 @@ Product Reviews is a repo created to showcase the power of Object-oriented progr
 - Refactor code that is inherited.
 - Instances can improve the logic inherited from a class
 
+## Techniques applied
+
+- Constructor functions
+- Factory functions
+- ES6 Classes
+- Recursice functions and methods
+- Prototypes methods
+- External library
+
 ## Initializing it
 
 The steps taken to initialize the project
@@ -47,12 +56,3 @@ The steps taken to initialize the project
 7. Create [GitHub repository](https://github.com/carlosmertens/product-reviews) and link it ot the source code.
 
 8. Happy coding...
-
-## Techniques applied
-
-- Constructor functions
-- Factory functions
-- ES6 Classes
-- Recursice functions and methods
-- Prototypes methods
-- External library
